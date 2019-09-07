@@ -136,6 +136,7 @@ TopBlank
         cpx #58         ; 2 cycles
         bne TopBlank    ; 2 cycles
 
+
 ;-------------------------------------------------------------------------------
 ; Draw the top bar
 

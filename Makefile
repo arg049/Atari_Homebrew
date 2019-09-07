@@ -1,5 +1,5 @@
 *.bin: *.asm
-	./dasm.Darwin.x86 playfield.asm -lplayfield.txt -f3 -v5 -oplayfield.bin
+	./dasm.Darwin.x86 current.asm -lcurrent.txt -f3 -v5 -ocurrent.bin
 
 .PHONY: clean
 clean:
