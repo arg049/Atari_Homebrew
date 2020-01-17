@@ -1,7 +1,6 @@
         processor 6502
         include "vcs.h"
         include "macro.h"
-        include "xmacro.h"
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
@@ -16,7 +15,7 @@
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-SpriteHeight	equ 26
+SpriteHeight	equ 27
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Variables segment
@@ -168,6 +167,7 @@ Frame0
         .byte #%00101000
         .byte #%01000100
         .byte #%11000110
+        .byte #%11000110
         .byte #%00101000
         .byte #%00010000
         .byte #%00010000
@@ -190,6 +190,7 @@ ColorFrame0
         .byte #$0A
         .byte #$0A
         .byte #$0A
+        .byte #$45
         .byte #$45
         .byte #$45
         .byte #$45
